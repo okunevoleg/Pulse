@@ -1,229 +1,104 @@
-
-@media(min-width: 769px) and (max-width:999px){
+@media(max-width: 980px){
+    
     .header{
-        display: flex;
         justify-content: space-around;
+        &__phone{
+            font-size: 16px;
+        }
     }
     
-    .promo__wrapper{
-        display: flex;
-        align-items: center;  
-      }
 
-      .header__official{
-        display: none;
-    } 
-    
-    .consultation__descr{
-        text-align: center;
+    .promo__wrapper{
+        align-items: center;
+    }
+
+    .advantages__icons{
+        justify-content: space-around;
+    }
+
+    .consultation{
+        h2{
+            text-align: center;
+            font-size: 27px;
+        }
+
+        &__descr{
+            text-align: center;
+        }
     }
 
     .feed-form{
         margin: 0 auto;
     }
 
-    .title_left{
-        font-size: 24px !important;
-        margin: 0 auto;
-        text-align: center !important;
-        margin-bottom: 20px;
+    .carousel__inner{
+        width: 600px;
     }
+
+    .slick-slide img{
+        width: 600px;
+    }
+
+
+    
 }
 
-@media (min-width:568px) and (max-width: 768px) {
-    .promo__wrapper{
-      display: flex;
-      align-items: center;  
+@media (max-width: 768px){
+    .promo__header{
+        font-size: 32px;
     }
 
-
-    .header__phone{
-        font-size: 14px;
-        font-weight: 700;
-    }
-
-    .button{
-        width: 130px;
-        font-size: 11px;
-    }
-
-    .button_main{
-        font-size: 14px;
-        width: 250px;
-    }
-
-    .advantages__icons{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .advantages__icon{
-        margin-bottom: 70px;
-        &:nth-child(3){
-            margin-bottom: 0;
-        }
+    .promo__subheader{
+        font-size: 21px;
     }
 
     .header__official{
         display: none;
     }
 
-    .header{
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .promo__header{
-        font-size: 28px;
-    }
-
-    .promo__subheader{
-        font-size: 22px;
-    }
-
-    .consultation__descr{
-        text-align: center;
-    }
-
-    .feed-form{
-        margin: 0 auto;
-    }
-
-    .title_left{
-        font-size: 18px !important;
-        margin: 0 auto;
-        text-align: center !important;
-        margin-bottom: 20px;
-    }
-
-    .button_submit{
-        font-size: 12px;
-        margin: 0 auto;
-        width: 100%;
-    }
-}
-
-@media (max-width: 567px){
-    .header{
-        display: flex;
-        justify-content: space-around;
-            &__official{
-                display: none;
-            }
-}
-    .promo__wrapper{
-        display: flex;
-        align-items: center;
-    }
-
-    .promo__header{
-        font-size: 22px;      
-    }
-
-    .promo__subheader{
-        font-size: 18px;
+    .advantages__header{
+        font-size: 24px;
     }
 
     .advantages__icons{
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .advantages__icon{
-        margin-bottom: 70px;
+        margin-bottom: 30px;
         &:nth-child(3){
             margin-bottom: 0;
         }
     }
 
-    .advantages__header{
-        font-size: 24px;
-    }
-
-    .consultation__descr{
-        text-align: center;
-    }
-
-    .feed-form{
-        margin: 0 auto;
-    }
-
-    .title_left{
-        font-size: 18px !important;
-        margin: 0 auto;
-        text-align: center !important;
-        margin-bottom: 20px;
-    }
-
-    .button_submit{
-        font-size: 12px;
-        margin: 0 auto;
-        width: 100%;
-    }
-
-}
-
-@media (min-width: 400px) and (max-width: 500px){
-    .header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        &__logo{
-            margin-bottom: 30px;
+    .consultation{
+        h2{
+            font-size: 22px;
         }
     }
 
-    .promo__icons{
-        display: none;
+    .carousel__inner{
+        width: 400px;
     }
 
-    .promo__icon{
-        margin-bottom: 30px;
+    .slick-slide img{
+        width: 400px;
     }
 
-    .promo__icon:nth-child(3){
-        margin-bottom: 0;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 399px){
-    .header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        &__logo{
-            margin-bottom: 30px;
-        }
+    .catalog__tabs{
+        width: 450px;
+        margin: 0 auto;       
     }
 
-    .promo__icons{
-        display: none;
-    }
-
-
-    .promo__icon:nth-child(3){
-        margin-bottom: 0;
-    }
-
-    .promo__header{
-        width: 150px;
-        text-align: center;
-    }
-
-    .promo__subheader{
+    .catalog__tab div{
         font-size: 14px;
+        font-weight: 400;
     }
 
-    .advantages__header{
-        font-size: 19px;
+    .catalog__content{
+        width: 750px;
     }
 
-    .button_main{
-        width: 200px;
-        font-size: 12px;
-    }
-
-    .promo__link{
-        font-size: 14px;
-    }
+    
 }
